@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Hello World'
+        git ''https://github.com/varampati6/Hello_World.git'
       }
     }
     stage('Test') {
